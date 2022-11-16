@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Permanent+Marker&display=swap"); /*Header*/
+.bg-color {
+  background-color: #d9d9d9;
+}
+
+/*body*/
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(31, 31, 39);
+}
+
+/*parrafos / encabezados /texto*/
+.parrafoHome {
+  margin-top: 5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 5%;
+  font-size: 30px;
+}
+
+/*imagenes / iconografía*/
+.fotoHome {
+  max-width: 100%;
+  height: auto;
+  border-radius: 22px;
+}
+
+.contenedor .img1,
+.contenedor .img2 {
+  width: 100%;
+  border-radius: 22px;
+  border-color: antiquewhite;
+}
+
+/*Galería de imagenes*/
+.container-gallery {
+  display: flex;
+  justify-content: center;
+}
+.container-gallery .img-thumbnail {
+  width: 100%;
+}
+
+.contenedor-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.contenedor-logos .row .logos {
+  width: 150px;
+  margin: 150px;
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: antiquewhite;
+  border-radius: 30px;
+}/*# sourceMappingURL=style.css.map */
