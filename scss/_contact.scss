@@ -1,18 +1,14 @@
+/*Seccion contacto*/
 
-.contenedor-logos {
+.logos {
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 50px;
-    .row {
-        .logos {
-            width: 150px;
-            margin: 150px;
-            padding-top: 5px;
-            padding-left: 2px;
-            padding-right: 2px;
-            background-color: antiquewhite;
-            border-radius: 30px;
-        }
-    }
+    width: 150px;
+    margin: 150px;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: antiquewhite;
+    border-radius: 30px;
 }

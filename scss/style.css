@@ -61,13 +61,10 @@ h3 {
   width: 100%;
 }
 
-.contenedor-logos {
+/*Seccion contacto*/
+.logos {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 50px;
-}
-.contenedor-logos .row .logos {
   width: 150px;
   margin: 150px;
   padding-top: 5px;
